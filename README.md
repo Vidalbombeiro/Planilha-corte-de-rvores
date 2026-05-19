@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Viabilização de Corte de Árvores - Bombeiros</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="static/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     
     <!-- 📌 BIBLIOTECA PARA GERAR PDF -->
@@ -172,6 +172,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Galhos Angulados -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-tree" style="transform: rotate(15deg)"></i> Galhos Angulados:</h3>
@@ -220,6 +221,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Galhos Esguios -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-tree" style="transform: rotate(15deg)" ></i> Galhos Esguios:</h3>
@@ -268,6 +270,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Lesões na Casca -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-first-aid"></i> Lesões na casca de galhos da copa:</h3>
@@ -316,6 +319,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Fungos -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-shield-alt"></i> Fungos:</h3>
@@ -336,6 +340,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Insetos Perfuradores -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-bug"></i> Insetos Perfuradores:</h3>
@@ -384,6 +389,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Erva-de-Passarinho -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-seedling"></i> Erva-de-Passarinho:</h3>
@@ -432,6 +438,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Folhagem Rala -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-leaf"></i> Folhagem Rala / Coloração / Quantidade e Tamanho de Folhas:</h3>
@@ -485,6 +492,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <div class="risk-assessment">
                             <h3><i class="fas fa-scissors"></i> Poda Unilateral e Drástica:</h3>
                             <div class="radio-options" required>
@@ -513,6 +521,9 @@
                                 </label>
                             </div>
                         </div>
+                    </div>
+                </section>
+
                 <!-- Avaliação do Tronco -->
                 <section class="form-card">
                     <div class="card-header">
@@ -573,6 +584,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Cavidade no Tronco -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-circle-notch"></i> Cavidade no Tronco:</h3>
@@ -610,6 +622,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Lesões Tronco -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-first-aid"></i> Lesões na Casca:</h3>
@@ -663,6 +676,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Orifícios de Insetos -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-bug"></i> Orifícios de Insetos (Cupim):</h3>
@@ -716,6 +730,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Fungos Tronco -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-shield-virus"></i> Fungos no Tronco:</h3>
@@ -736,6 +751,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Cancro no Tronco -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-exclamation-triangle"></i> Cancro no Tronco:</h3>
@@ -749,41 +765,42 @@
                                 </label>
                                 <label class="radio-card">
                                     <input type="radio" name="cancro" value="1">
-                            <div class="radio-content">
-                                <span class="risk-level medium">1 - Risco baixo</span>
-                                <p>Cancro com área de até 200cm²</p>
-                            </div>
+                                    <div class="radio-content">
+                                        <span class="risk-level medium">1 - Risco baixo</span>
+                                        <p>Cancro com área de até 200cm²</p>
+                                    </div>
                                 </label>
-                            <label class="radio-card">
-                                <input type="radio" name="cancro" value="2">
-                            <div class="radio-content">
-                                <span class="risk-level medium">2 - Risco moderado</span>
-                                <p>Cancro com área entre 200cm² e 1000cm²</p>
-                            </div>
-                            </label>
-                            <label class="radio-card">
-                                <input type="radio" name="cancro" value="3">
-                            <div class="radio-content">
-                            <span class="risk-level high">3 - Risco alto</span>
-                            <p>Cancro com área entre 1000cm² e 5000cm²</p>
-                            </div>
-                            </label>
-                            <label class="radio-card">
-                                <input type="radio" name="cancro" value="4">
-                                <div class="radio-content">
-                                    <span class="risk-level high">4 - Risco muito alto</span>
-                                    <p>Cancro com área entre 5000cm² e 10000cm²</p>
-                                </div>
-                            </label>
-                            <label class="radio-card">
-                                <input type="radio" name="cancro" value="5">
-                                <div class="radio-content">
-                                    <span class="risk-level danger">5 - Risco extremo</span>
-                                    <p>Cancro com área acima de 10000cm² ou 50% do tronco atingido</p>
-                                </div>
-                            </label>
+                                <label class="radio-card">
+                                    <input type="radio" name="cancro" value="2">
+                                    <div class="radio-content">
+                                        <span class="risk-level medium">2 - Risco moderado</span>
+                                        <p>Cancro com área entre 200cm² e 1000cm²</p>
+                                    </div>
+                                </label>
+                                <label class="radio-card">
+                                    <input type="radio" name="cancro" value="3">
+                                    <div class="radio-content">
+                                        <span class="risk-level high">3 - Risco alto</span>
+                                        <p>Cancro com área entre 1000cm² e 5000cm²</p>
+                                    </div>
+                                </label>
+                                <label class="radio-card">
+                                    <input type="radio" name="cancro" value="4">
+                                    <div class="radio-content">
+                                        <span class="risk-level high">4 - Risco muito alto</span>
+                                        <p>Cancro com área entre 5000cm² e 10000cm²</p>
+                                    </div>
+                                </label>
+                                <label class="radio-card">
+                                    <input type="radio" name="cancro" value="5">
+                                    <div class="radio-content">
+                                        <span class="risk-level danger">5 - Risco extremo</span>
+                                        <p>Cancro com área acima de 10000cm² ou 50% do tronco atingido</p>
+                                    </div>
+                                </label>
                             </div>
                         </div>
+
                         <!-- Injúrias Mecânicas -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-first-aid"></i> Injúrias Mecânicas:</h3>
@@ -832,13 +849,7 @@
                                 </label>
                             </div>
                         </div>
-                <!-- Avaliação do Tronco -->
-                <section class="form-card">
-                    <div class="card-header">
-                        <i class="fas fa-tree"></i>
-                        <h2>Avaliação do Tronco</h2>
-                    </div>
-                    <div class="card-body">
+
                         <!-- Brotação Epicórmica -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-seedling"></i> Brotação Epicórmica:</h3>
@@ -859,6 +870,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Lesões na Base do Tronco -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-first-aid"></i> Lesões na Base do Tronco:</h3>
@@ -907,6 +919,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Cavidades na Base do Tronco -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-circle-notch"></i> Cavidades na Base do Tronco:</h3>
@@ -941,6 +954,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Fungos na Base do Tronco -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-shield-virus"></i> Fungos na Base do Tronco:</h3>
@@ -961,6 +975,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Raízes Adventícias Aparentes -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-tree"></i> Raízes Adventícias Aparentes:</h3>
@@ -1009,54 +1024,7 @@
                                 </label>
                             </div>
                         </div>
-                        <!-- Injúrias Mecânicas -->
-                        <div class="risk-assessment">
-                            <h3><i class="fas fa-first-aid"></i> Injúrias Mecânicas:</h3>
-                            <div class="radio-options" required>
-                                <label class="radio-card">
-                                    <input type="radio" name="injuria-mecanica" value="0" required>
-                                    <div class="radio-content">
-                                        <span class="risk-level safe">0 - Sem risco</span>
-                                        <p>Não existem injúrias mecânicas</p>
-                                    </div>
-                                </label>
-                                <label class="radio-card">
-                                    <input type="radio" name="injuria-mecanica" value="1">
-                                    <div class="radio-content">
-                                        <span class="risk-level medium">1 - Risco baixo</span>
-                                        <p>Desenhos ou escritos no tronco</p>
-                                    </div>
-                                </label>
-                                <label class="radio-card">
-                                    <input type="radio" name="injuria-mecanica" value="2">
-                                    <div class="radio-content">
-                                        <span class="risk-level medium">2 - Risco moderado</span>
-                                        <p>Ervas-de-passarinho em ~20% dos galhos</p>
-                                    </div>
-                                </label>
-                                <label class="radio-card">
-                                    <input type="radio" name="injuria-mecanica" value="3">
-                                    <div class="radio-content">
-                                        <span class="risk-level high">3 - Risco alto</span>
-                                        <p>Ervas-de-passarinho em ~30% dos galhos</p>
-                                    </div>
-                                </label>
-                                <label class="radio-card">
-                                    <input type="radio" name="injuria-mecanica" value="4">
-                                    <div class="radio-content">
-                                        <span class="risk-level high">4 - Risco muito alto</span>
-                                        <p>Ervas-de-passarinho em ~40% dos galhos</p>
-                                    </div>
-                                </label>
-                                <label class="radio-card">
-                                    <input type="radio" name="injuria-mecanica" value="5">
-                                    <div class="radio-content">
-                                        <span class="risk-level danger">5 - Risco extremo</span>
-                                        <p>Ervas-de-passarinho em ≥50% dos galhos</p>
-                                    </div>
-                                </label>
-                            </div>
-                        </div>
+
                         <!-- Espaço Permeável -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-ruler-combined"></i> Espaço Permeável:</h3>
@@ -1084,6 +1052,7 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Ausência de Neilóide -->
                         <div class="risk-assessment">
                             <h3><i class="fas fa-tree"></i> Ausência de Neilóide:</h3>
@@ -1118,10 +1087,13 @@
                                 </label>
                             </div>
                         </div>
+                    </div>
+                </section>
+
                 <!-- Avaliação do Índice de Risco de Queda -->
                 <section class="form-card">
                     <div class="card-header">
-                        <i class="fas fa-tree"></i>
+                        <i class="fas fa-chart-line"></i>
                         <h2>Avaliação do Índice de Risco de Queda</h2>
                     </div>
                     <div class="card-body"> 
@@ -1152,9 +1124,10 @@
                                 </label>
                             </div>
                         </div>
+
                         <!-- Índice de Risco de Efeito Colateral -->
                         <div class="risk-assessment">
-                            <h3><i class="fas fa-tree" style="transform: rotate(45deg)"></i> Índice de Risco de Efeito Colateral:</h3>
+                            <h3><i class="fas fa-building"></i> Índice de Risco de Efeito Colateral:</h3>
                             <div class="radio-options">
                                 <label class="radio-card">
                                     <input type="radio" name="efeito-colateral" value="1">
@@ -1184,22 +1157,22 @@
 
                 <!-- Totalizador de Risco -->
                 <section class="risk-total">
-                   <div class="total-header">
-                       <i class="fas fa-calculator"></i>
-                       <h3>Total de Pontos de Risco</h3>
-                   </div>
-                   <div class="total-body">
-                       <div class="total-score total-safe" id="total-risk">0</div>
-                       <p class="total-description">Soma de todos os índices de risco avaliados</p>
-                       <div class="risk-levels-info">
-                           <div class="risk-level-item"><span class="safe">3-6</span> - Risco de Menor Importância</div>
-                           <div class="risk-level-item"><span class="medium">7-11</span> - Risco de Média Importância</div>
-                           <div class="risk-level-item"><span class="high">12-15+</span> - Risco de Alta Importância </div>
-                       </div>
-                   </div>
+                    <div class="total-header">
+                        <i class="fas fa-calculator"></i>
+                        <h3>Total de Pontos de Risco</h3>
+                    </div>
+                    <div class="total-body">
+                        <div class="total-score total-safe" id="total-risk">0</div>
+                        <p class="total-description">Soma de todos os índices de risco avaliados</p>
+                        <div class="risk-levels-info">
+                            <div class="risk-level-item"><span class="safe">3-6</span> - Risco de Menor Importância</div>
+                            <div class="risk-level-item"><span class="medium">7-11</span> - Risco de Média Importância</div>
+                            <div class="risk-level-item"><span class="high">12-15+</span> - Risco de Alta Importância</div>
+                        </div>
+                    </div>
                 </section>
                 
-                <!-- 📌 BOTÕES DE AÇÃO (SUBSTITUA SEUS BOTÕES EXISTENTES POR ESTES) -->
+                <!-- BOTÕES DE AÇÃO -->
                 <div class="form-actions">
                     <button type="button" id="btn-preview" class="submit-btn" style="background-color: #17A2B8;">
                         <i class="fas fa-eye"></i> Visualizar Relatório
@@ -1215,6 +1188,6 @@
         </main>
     </div>
 
-    <script src="../static/script.js"></script>
+    <script src="static/script.js"></script>
 </body>
 </html>
