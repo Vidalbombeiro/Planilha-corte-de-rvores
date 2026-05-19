@@ -1,0 +1,11 @@
+@media print {
+    .submit-btn, .form-actions button:not(#btn-pdf) {
+        display: none !important;
+    }
+    .risk-total {
+        break-inside: avoid;
+    }
+    .radio-card {
+        break-inside: avoid;
+    }
+}

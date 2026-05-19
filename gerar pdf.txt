@@ -1,0 +1,3 @@
+<button onclick="gerarPDF()" class="submit-btn" style="background-color: #DC3545;">
+    📄 Salvar como PDF
+</button>
